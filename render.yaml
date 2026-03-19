@@ -1,1 +1,8 @@
-
+services:
+  - type: web
+    name: nse-option-chain-proxy
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node index.js
+    healthCheckPath: /
