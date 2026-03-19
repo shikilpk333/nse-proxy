@@ -1,1 +1,16 @@
-
+{
+  "name": "nse-option-chain-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server to fetch NSE India Option Chain data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "express": "^4.18.2"
+  }
+}
